@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Katya's website</title>
+    <link rel="stylesheet" href="project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="description" content="Buy body jewelry online. Belly button rings, belly rings, wholesale body jewelry, body piercing jewelry, piercing jewelry, navel rings, tongue rings">
+
+</head>
+<body class="p-3 mb-2 bg-light text-black">
+    <div id="menu">
+        <img id="logo" src="Images/Piercing.jpg" alt="logo">
+
+        <input id="Search" type="text" size="19" placeholder="🔎Search">
+        <p id="NText">Jewelry</p>
+
+        <nav>
+            <ul>
+                <li class="menu1"> <a href="index.html"><b>Home Page</b></a></li>
+                <li class="menu1"> <a href="projectpg2.html"><b>Products</b></a></li>
+                <li class="menu1"> <a href="projectpg3.html"><b>Cart</b></a></li>
+                <li class="menu1"> <a href="projectpg4.html"><b>About us</b></a></li>
+                <li class="menu1"> <a href="projectpg5.html"><b>Give us a review</b></a></li>
+            </ul>
+        </nav>
+
+        <p id="D">Login</p>
+        <input class="Details" name="Username" type="text" size="19" name="Username" placeholder="Username"><br /><br />
+        <input class="Details" name="Password" type="text" size="19" name="Password" placeholder="Password">
+
+    </div>
+    <br />
+    <br />
+    <br />
+    <form action="mailto:katyacamilleri2002@gmail.com" class="Contact"
+          method="POST"
+          enctype="multipart/form-data"
+          name="frm"
+          id="insert">
+        <p class="c">Full Name:<p>
+            <br>
+            <input class="center" name="name" type="text" size="19" name="Contact-Name"><br><br>
+        <p class="c">Email:<p>
+            <br>
+            <input class="center" name="email" type="email" name="Contact-Email"><br><br>
+        <p class="c">Contact Number:<p>
+            <br>
+            <input class="center" name="number" type="number" name="Contact-Number"><br><br>
+        <p class="c">Message:<p>
+            <br>
+            <textarea class="center" name="message" name="Contact-Message" rows="6" cols="20″>
+    </textarea><br><br>
+
+            <input id="insert" onclick="IsEmpty();" type="submit" value="Submit" />
+    </form>
+
+
+
+
+
+</body>
+</html>

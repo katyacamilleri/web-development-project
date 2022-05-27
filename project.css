@@ -1,0 +1,206 @@
+
+#menu {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    background-color: #d8a7b7;
+    float: left;
+    border: solid black 4px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: -10px;
+}
+
+#logo {
+    float: left;
+    height: 6%;
+    width: 6%;
+    border-radius: 50%;
+    border: solid black 2px;
+    top: 20px;
+}
+
+.Details {
+    float: right;
+}
+#D {
+    text-align: right;
+    margin: 30px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+#Search {
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 60%;
+    height: 20%;
+    font-size: 15pt;
+}
+
+#NText {
+    float: left;
+    margin: 10px;
+    top: 20px;
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+#Filter {
+    background-color: #da6088;
+    margin-left: -20px;
+    width: 16%;
+    font-weight: bold;
+    border: solid black 2px;
+    font-family: Verdana;
+    text-decoration: none;
+    display: block;
+    float: left;
+ 
+}
+
+#Filter a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu1 {
+    font-family: Verdana;
+    margin-left: 10%;
+}
+
+
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+#menu ul a {
+    margin: 50px;
+    font: Verdana;
+    text-decoration: none;
+    color: black;
+}
+
+#menu ul {
+    text-align: center;
+    float: left;
+    font-family: Verdana;
+}
+
+.product{
+margin: 5%;	
+width:10%;
+background-color: #348fab;
+border: solid black 3px;
+border-radius: 20px 20px 20px 20px;
+padding: 5%;
+display: inline-block;
+font-family: Verdana;
+
+}
+
+.product1 {
+    margin-left: 5%;
+    width: 10%;
+    margin-top: 1%;
+    display: block;
+    font-family: Verdana;
+    float: left;
+    color:black;
+}
+
+.prod {
+    background-color: #3c3c3c; 
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#Products {
+    margin: 5%;
+    width: 100%;
+    height: 40%;
+    border-radius: 15px 15px 15px 15px;
+    border: solid black 1px;
+    display: inline-block;
+    font-family: Verdana;
+}
+
+.Contact {
+    margin-left: 41%;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 10%;
+    
+}
+
+.c {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.center {
+    width: 40%;
+}
+
+.Cart {
+    margin: 5%;
+    width: 50%;
+    vertical-align: top;
+    display: table;
+    font-family: Verdana;
+}
+
+#Img {
+    float: left;
+    width: 30%;
+    border-radius: 30%;
+    border: solid black 1px;
+    display: inline-block;
+
+}
+#shop {
+    width: 200%;
+}
+
+#PurchaseA {
+    float:right;
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 20%;
+}
+
+#Pur {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+#Rec {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 5%;
+
+}
+#Recommended {
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    background-color: #d8a7b7;
+    float: left;
+    border: solid black 2px;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: -10px;
+    margin-top:18%;
+
+}
+
+#About {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 10%; 
+}
